@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Find Students</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>tra cứu thông tin tuyển sinh</h1>
+            </div>
+        </header>
+        <section class="import">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="row">
+                    <form action="">
+                        <label for="name">Họ tên</label>
+                        <input type="text" id="name"><br><br>
+                        <label for="mhs">Mã học sinh</label>
+                        <input type="text" id="mhs">
+                    </form>
+                </div>
+
+                <button id="bt" type="button">Tìm kiếm</button>
+                <button id="show-btn" class="" type="button">Show Student</button>
+                <div>
+                    <div id="header-student">
+                    </div>
+                    <div id="student-container">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="col">
+                    <h3>địa chỉ</h3>
+                    <p>Số 182, Lê Duẩn, TP Vinh, Nghệ An</p>
+                </div>
+                <div class="col">
+                    <h3>email</h3>
+                    <p>c3chuyentoan@nghean.edu.vn</p>
+                </div>
+                <div class="col">
+                    <h3>điện thoại</h3>
+                    <p>(0238) 3855 724</p>
+                </div>
+            </div>
+        </footer>
+        <script type="module" src="script2.js"></script>
+        <!-- library js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+    </body>
+</html>

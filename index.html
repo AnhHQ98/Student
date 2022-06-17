@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Students</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>tra cứu thông tin tuyển sinh</h1>
+            </div>
+        </header>
+        <section class="import">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="inp">
+                    <label class="file_input" for="xlsx" id="file_container">
+                        <input type="file" name="xlsx" id="xlsx">click to import (.xlsx)
+                    </label>
+                    <button id="import">Import</button>
+                </div>
+            </div>  
+        </section>
+        <section>
+            <div class="container">
+                <div id="header-student"></div>
+                <div id="student-container"></div>  
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="col">
+                    <h3>địa chỉ</h3>
+                    <p>Số 182, Lê Duẩn, TP Vinh, Nghệ An</p>
+                </div>
+                <div class="col">
+                    <h3>email</h3>
+                    <p>c3chuyentoan@nghean.edu.vn</p>
+                </div>
+                <div class="col">
+                    <h3>điện thoại</h3>
+                    <p>(0238) 3855 724</p>
+                </div>
+            </div>
+        </footer>
+        <script type="module" src="script.js"></script>
+        <!-- library read file excel with javascript -->
+        <script src="https://unpkg.com/read-excel-file@4.x/bundle/read-excel-file.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+.logo{
+    text-align: center;
+}
+.inp{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.file_input{
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.file_input input{
+    display: none;
+}
+.import button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+}
+.import .row{
+    display: flex;
+    justify-content: center;
+}
+.import .row label{
+    width: 100px;
+    display: inline-block;
+}
+.import .row input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid;
+}
+table{
+    border-collapse: collapse;
+    display: none;
+}
+th, td{
+    border: 1px solid;
+    padding: 10px;
+}
+footer .container{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(211, 211, 253);
+    display: flex;
+}
+footer .col{
+    width: calc(100% / 3);
+}
+footer h3{
+    text-transform: uppercase;
+}
+#header-student{
+    width: 100%;
+    height: auto;
+}
